@@ -34,8 +34,8 @@ export default function Footer() {
 
           <ul className="space-y-3 text-gray-400">
             <li>London, United Kingdom</li>
-            <li>info@luxehostcleaning.com</li>
-            <li>+44 20 0000 0000</li>
+            <li>info@luxehostcleaning.co.uk</li>
+            <li>+44 7424 245853</li>
           </ul>
         </div>
 
