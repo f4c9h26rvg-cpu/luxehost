@@ -3,7 +3,7 @@
 import { MessageCircle } from "lucide-react";
 
 export default function WhatsAppButton() {
-  const phone = "447700900000"; // Substitua pelo seu número com código do país
+  const phone = "447424245853"; // Substitua pelo seu número com código do país
 
   return (
     <a
