@@ -4,56 +4,121 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="bg-white py-28 px-6"
+      className="bg-black text-white py-28 px-6"
     >
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20">
 
-        <div className="text-center mb-16">
+        {/* Left Side */}
 
-          <p className="uppercase tracking-[8px] text-gray-500">
-            CONTACT
+        <div>
+          <p className="uppercase tracking-[6px] text-gray-400">
+            Contact
           </p>
 
           <h2 className="text-5xl font-bold mt-4">
-            Request Your Quote
+            Request Your Free Quote
           </h2>
 
-          <p className="text-gray-500 mt-6 max-w-2xl mx-auto">
-            Tell us about your property and we'll send you a personalised quotation.
+          <p className="text-gray-300 mt-8 leading-8">
+            Tell us about your property and we'll prepare a personalised quote
+            as quickly as possible.
           </p>
 
+          <div className="mt-12 space-y-8">
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">
+                Email
+              </h3>
+
+              <a
+                href="mailto:walmor.costa@luxehostcleaning.co.uk"
+                className="text-gray-400 hover:text-white transition"
+              >
+                walmor.costa@luxehostcleaning.co.uk
+              </a>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">
+                WhatsApp
+              </h3>
+
+              <a
+                href="https://wa.me/447424245853"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition"
+              >
+                +44 7424 245853
+              </a>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">
+                Website
+              </h3>
+
+              <a
+                href="https://luxehostcleaning.co.uk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition"
+              >
+                luxehostcleaning.co.uk
+              </a>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">
+                Service Area
+              </h3>
+
+              <p className="text-gray-400">
+                London & Greater London
+              </p>
+            </div>
+
+          </div>
         </div>
 
-        <form className="grid md:grid-cols-2 gap-6">
+        {/* Right Side */}
+
+        <form className="bg-zinc-900 rounded-3xl p-10 shadow-2xl space-y-6">
 
           <input
+            type="text"
             placeholder="Full Name"
-            className="border rounded-xl p-4"
+            className="w-full rounded-xl bg-zinc-800 px-5 py-4 outline-none border border-zinc-700 focus:border-white transition"
           />
 
           <input
+            type="email"
             placeholder="Email Address"
-            className="border rounded-xl p-4"
+            className="w-full rounded-xl bg-zinc-800 px-5 py-4 outline-none border border-zinc-700 focus:border-white transition"
           />
 
           <input
+            type="tel"
             placeholder="Phone Number"
-            className="border rounded-xl p-4"
+            className="w-full rounded-xl bg-zinc-800 px-5 py-4 outline-none border border-zinc-700 focus:border-white transition"
           />
 
           <input
+            type="text"
             placeholder="Property Address"
-            className="border rounded-xl p-4"
+            className="w-full rounded-xl bg-zinc-800 px-5 py-4 outline-none border border-zinc-700 focus:border-white transition"
           />
 
           <textarea
-            placeholder="Tell us about your property..."
             rows={6}
-            className="border rounded-xl p-4 md:col-span-2"
+            placeholder="Tell us about your property..."
+            className="w-full rounded-xl bg-zinc-800 px-5 py-4 outline-none resize-none border border-zinc-700 focus:border-white transition"
           />
 
           <button
-            className="bg-black text-white py-4 rounded-xl font-semibold md:col-span-2 hover:bg-gray-800 transition"
+            type="submit"
+            className="w-full bg-white text-black py-4 rounded-xl font-bold text-lg hover:bg-gray-200 transition"
           >
             Request Quote
           </button>

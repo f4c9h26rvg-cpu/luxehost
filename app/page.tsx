@@ -5,6 +5,7 @@ import Process from "@/components/sections/Process";
 import Pricing from "@/components/sections/Pricing";
 import Testimonials from "@/components/sections/Testimonials";
 import Gallery from "@/components/sections/Gallery";
+import FAQ from "@/components/sections/Faq";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/layout/Footer";
 
@@ -16,8 +17,9 @@ export default function Home() {
       <WhyUs />
       <Process />
       <Pricing />
-      <Testimonials />
       <Gallery />
+      <Testimonials />
+      <FAQ />
       <Contact />
       <Footer />
     </>
